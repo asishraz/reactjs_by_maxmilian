@@ -1,0 +1,61 @@
+Javascript is important as it's add business logic to the request-response process.
+
+It makes the process much easier than the tradiitonal web development process
+
+Imperative approach - instructions after instructions [this is the limit of JS]
+
+and that's why React came to the picture
+
+React makes complex UI easier by giving higher level syntax in a declarative way
+With the help of custom hTML  element 
+
+React can be used to control parts of the HTML pages or the full page 
+And also, it can be used for full frontend application [spa - server only sends one html page and thereafter react will take care of it]
+
+
+
+React:
+
+Lean and focus components
+For extra usage, we need to install 3rd party library
+
+
+Basics and Foundations:
+components and UI 
+Working with evens and data : props and state
+Styling react apps & components
+Intro to hooks
+
+
+Adv. concepts:
+Side effects: refs and more hooks
+context api and redux
+http request & custom hooks
+nextjs and more
+routing and deployment
+
+Summaries and refreshers
+js refreshers
+reactjs summary
+
+
+tips for best outcome:
+
+watch videos at your own pace
+repeat the lecture, if you needed
+code along and practise
+pausing and do your own first
+try rebuilding your own and then resume the video
+practice is most important
+we will face errors and debug the errors on your own
+DO your own first
+use code attachments and compare the code your own and the tutor
+narrow down the issues 
+as a developer , you should solve problem on your own
+
+help each other and learn together
+
+post on Q&A and also help others
+
+shift+alt+f for format doc in vscode
+
