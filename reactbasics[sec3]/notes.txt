@@ -8,3 +8,14 @@ sepearation of concerns
 mostly , react is the combination of html and js
 react allows to create reusable & reactive components [consists of html, js and css]
 
+
+
+for simple paragraph in js, we need to write:
+
+const para = document.createElement('p');
+para.textContent = "This is paragraph"
+document.getElementById('root').append(para);
+
+this is imperative
+
+a component in react is just a js function
