@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="js" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>JavaScript Demo: Array.findIndex()</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="array-findindex_data/codemirror-5-50-2.css" rel="stylesheet">
+    <link href="array-findindex_data/editor-js.css" rel="stylesheet">
+    
+    <script>"use strict";function postToKuma(e){window.parent.postMessage(e,"*")}postToKuma({markName:"interactive-editor-loading"}),document.addEventListener("readystatechange",function(e){switch(e.target.readyState){case"interactive":postToKuma({markName:"interactive-editor-interactive",measureName:"ie-time-to-interactive",startMark:"interactive-editor-loading",endMark:"interactive-editor-interactive"});break;case"complete":postToKuma({markName:"interactive-editor-complete",measureName:"ie-time-to-complete",startMark:"interactive-editor-loading",endMark:"interactive-editor-complete"})}});</script>
+  </head>
+  <body data-new-gr-c-s-check-loaded="8.876.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="8.876.0">
+      <section id="static" class="hidden">
+          <pre><code id="static-js" data-height="shorter">const array1 = [5, 12, 8, 130, 44];
+
+const isLargeNumber = (element) =&gt; element &gt; 13;
+
+console.log(array1.findIndex(isLargeNumber));
+// expected output: 3
+</code></pre>
+      </section>
+
+      <section id="live" class="live">
+          <header><h4>JavaScript Demo: Array.findIndex()</h4></header>
+          <div id="editor" class="editor shorter"><div class="CodeMirror cm-s-default CodeMirror-focused"><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -17px; border-right-width: 33px; min-height: 155px; min-width: 391px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div style="position: relative; outline: currentcolor none medium;" role="presentation"><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>7</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""></div><div class="CodeMirror-code" role="presentation" autocorrect="off" autocapitalize="none" spellcheck="false" tabindex="0" style="" contenteditable="true"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-keyword">const</span> <span class="cm-def">array1</span> <span class="cm-operator">=</span> [<span class="cm-number">5</span>, <span class="cm-number">12</span>, <span class="cm-number">8</span>, <span class="cm-number">130</span>, <span class="cm-number">44</span>];</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-keyword">const</span> <span class="cm-def">isLargeNumber</span> <span class="cm-operator">=</span> (<span class="cm-def">element</span>) <span class="cm-operator">=&gt;</span> <span class="cm-variable-2">element</span> <span class="cm-operator">&gt;</span> <span class="cm-number">13</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable">console</span>.<span class="cm-property">log</span>(<span class="cm-variable">array1</span>.<span class="cm-property">findIndex</span>(<span class="cm-variable">isLargeNumber</span>));</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">// expected output: 3</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">7</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 33px; width: 1px; border-bottom: 0px solid transparent; top: 155px;"></div><div class="CodeMirror-gutters" style="height: 188px; left: 0px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div></div></div>
+
+          <div class="output-container">
+              <div class="buttons-container">
+                  <button id="execute" class="button run" type="button">Run ›</button>
+                  <button id="reset" type="button" class="button">Reset</button>
+              </div>
+              <div id="console" class="output"><code></code></div>
+          </div>
+      </section>
+
+    
+
+    <script src="array-findindex_data/codemirror-5-50-2.js"></script>
+    <script src="array-findindex_data/editor-js.js"></script>
+  
+
+</body></html>

@@ -1,0 +1,21 @@
+let and const are new es6 variable syntax
+
+let - variable values
+const - constant values [ never gets a new value]
+
+
+arrow functions
+
+const myfunc = () => {
+
+}
+
+* no more issues with 'this' keyword
+* context of 'this' will be keep inside the arrow func block
+
+
+spread operator
+
+used to split up the array elements or obj properties
+
+
