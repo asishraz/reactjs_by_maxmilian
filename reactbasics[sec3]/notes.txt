@@ -1,0 +1,10 @@
+react is all about components
+
+reusability
+
+sepearation of concerns
+
+
+mostly , react is the combination of html and js
+react allows to create reusable & reactive components [consists of html, js and css]
+
