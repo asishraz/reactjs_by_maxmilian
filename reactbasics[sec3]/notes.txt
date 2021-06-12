@@ -24,3 +24,11 @@ a component in react is just a js function
 const expenseDate = new Date();
 expenseDate.toISOString()
 o/p as a string
+
+
+We can't use our custom defined components as a wrapper around other components
+
+{props.children}
+Children is a reserved name and the value of this special children prop 
+will always be the content between the opening and closing tags of your custom component.
+In our example is the <Card>
