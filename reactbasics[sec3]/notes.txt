@@ -19,3 +19,8 @@ document.getElementById('root').append(para);
 this is imperative
 
 a component in react is just a js function
+
+.toISOString() - a built in method for the Date object
+const expenseDate = new Date();
+expenseDate.toISOString()
+o/p as a string
