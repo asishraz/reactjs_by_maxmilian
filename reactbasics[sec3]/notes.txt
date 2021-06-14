@@ -32,3 +32,78 @@ We can't use our custom defined components as a wrapper around other components
 Children is a reserved name and the value of this special children prop 
 will always be the content between the opening and closing tags of your custom component.
 In our example is the <Card>
+
+
+React works goes from one Component to other, basically from one function to another, 
+starting from Index.js file, then App.js and then on and on. 
+But never repeated its flow. 
+Therefore, if we want to update any existing components dynamically, React doesn't do that directly.
+To handle it, React introduces state.
+'state' is not a React concept but it is a key concept. 
+
+React doesn't reload its components twice for some changes in our variables. 
+NO second time, after rendering.
+
+To overcome this, React have a inbuilt function called {useState}
+We have to import it from React library.
+
+import React, {useState} from 'react'
+
+This is a React hooks and all hooks starts with the word 'use'
+and all these hooks must be called inside of a React component function
+Must be called directly inside the components.
+It wants a default state value
+We indirectly creates a special kind of variable with the help of useState
+Therefore we have to assign some initial value for that special variable
+We pass the value as an argument
+and useState returns array
+
+const [title, setTitle] = useState(props.title)
+this is the example of array destructuring
+here 'title' is the value, which we want to update and show on the screen
+and 'setTitle' is a function which gets called on the component, where we want to apply the changes
+
+and we have to call 'setTitle' function inside the component to make the changes.
+
+the whole code looks like this:
+
+#import
+import { useState } from 'react';
+
+#assign value
+const [title, setTitle] = useState(props.title);
+
+#used inside the function
+setTitle('new value');
+
+conclusion- if we have data and we want to change it in the UI,
+regular variable will not do the things, we need to use 'state'.
+
+Its the 'state' which adds reactivity to the React application. 
+
+
+#more on useState
+state is seperated on per component instance basis
+useState registers some value for the component where it is being called
+It registers for a speicific component instance 
+
+
+#controlled component
+
+both the value and the changes to the value are not handled in the component itself
+and handled by the Parent components.
+In other words, the parent component controls the child component and its value
+
+#stateless component
+also known as dumb component or presentational component
+because it doesn't have any internal state
+its just there for showing some data
+
+In JavaScript, functions are just objects (i.e. regular values) 
+and hence you can pass them as values via props to a component. 
+If that component then calls that function, it executes - 
+and that's how you can trigger a function defined in a parent component from inside a child component.
+
+useState returns an array with exactly two elements - 
+the second element is always a function which you can call to set a new value for your state. 
+Calling that function will then also trigger React to re-evaluate the component.
