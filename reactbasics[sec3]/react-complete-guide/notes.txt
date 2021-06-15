@@ -107,3 +107,9 @@ and that's how you can trigger a function defined in a parent component from ins
 useState returns an array with exactly two elements - 
 the second element is always a function which you can call to set a new value for your state. 
 Calling that function will then also trigger React to re-evaluate the component.
+
+
+{} is used to pass the data dynamically in react
+insise {} we can execute JS operations
+
+
